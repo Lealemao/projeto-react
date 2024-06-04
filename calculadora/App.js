@@ -4,6 +4,19 @@ import Botao from "./src/components/Botao";
 import Visor from "./src/components/Visor";
 
 export default function App() {
+
+  adicionarDigito = n => {
+    console.warning(`adicionando digito ${n}`)
+  }
+
+  limparMemoria = () => {
+    console.warning(`limpando a memória`)
+  }
+
+  setOperacao = () => {
+    console.warning(`setando a operação`)
+  }
+
   return (
     <View style={estilos.container}>
       <Visor />
