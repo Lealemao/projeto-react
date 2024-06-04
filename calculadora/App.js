@@ -21,9 +21,9 @@ export default function App() {
     <View style={estilos.container}>
       <Visor />
       <View style={estilos.botoes}>
-       <Botao label="AC" triplo /> 
-       <Botao label="/" corOp />
-       <Botao label="7" />
+       <Botao label="AC" triplo onClick={limparMemoria} /> 
+       <Botao label="/" corOp onClick={setOperacao} />
+       <Botao label="7" onClick={adicionarDigito}/>
        <Botao label="8" />
        <Botao label="9" />
        <Botao label="*" corOp />
